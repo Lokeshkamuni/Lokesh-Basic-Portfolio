@@ -1,0 +1,111 @@
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+body {
+  padding:2rem;
+  margin:0;
+  box-sizing: border-box;
+  font-size: 1.25rem;
+  background-color: #060d0d;
+  color: black;
+}
+
+.new{
+  background-color: black;
+  color:white;
+  margin: 0 2rem 0 2rem;
+  border: 2px solid transparent;
+  
+}
+.new:hover{
+  border:2px solid white;
+  color:white;
+}
+.run{
+  background-color: white;
+  color:black;
+  border: 5px solid transparent;
+}
+.run:hover{
+  border: 5px solid black;
+  color:black;
+}
+
+.ader {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  margin:20px 20px 70px 20px;
+  text-align: center;
+}
+
+main{
+  background-color: white;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin:70px 20px 20px 20px;
+}
+
+ul{
+  display: none;
+  
+}
+
+h2{
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  animation: 2s linear slideIn;
+}
+
+
+li{
+  padding:20px 0px 20px 10px;
+}
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#education{
+  padding-top:10px;
+}
+#certifications{
+  padding-bottom:5px;
+}
+
+@keyframes slideIn{
+  from{
+      margin-left:30%;
+      width:100%;
+  }
+
+  to{
+      margin-left: 0;
+      width:100%;
+  }
+}

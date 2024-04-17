@@ -1,0 +1,65 @@
+
+body {
+    padding:2rem;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    background-color: #060d0d;
+    color: white;
+    overflow: hidden;
+    animation: 5s linear kickin;
+}
+
+.new{
+    background-color: black;
+    color:white;
+    margin: 0 2rem 0 2rem;
+    border: 2px solid transparent;
+    
+  }
+  .new:hover{
+    border:2px solid white;
+    color:white;
+  }
+  .run{
+    background-color: white;
+    color:black;
+    border: 2px solid transparent;
+  }
+  .run:hover{
+    border: 2px solid black;
+    color:black;
+  }
+
+  
+h1{
+    background-color: rgb(230, 242, 238);
+    color:black;
+    font-size: xx-large;
+    margin:40px;
+    animation-duration: 4s;
+    /* animation-name: slideIn; */
+    animation-direction: normal;
+}
+
+@keyframes slideIn{
+    from{
+        margin-left:50%;
+        
+    }
+
+    to{
+        margin-left: 0;
+        
+    }
+}
+
+@keyframes kickin{
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}

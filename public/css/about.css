@@ -1,0 +1,64 @@
+
+body{
+    background-image: url(../edu\ 1.jpeg);
+    background-size: contain;
+    color: rgb(247, 177, 177);
+   
+    margin:0;
+    padding:2rem;
+    box-sizing: border-box;
+    font-size: 1.25rem;
+}
+
+.new{
+    color:antiquewhite;
+    margin:0 2rem 0 2rem;
+    border: 2px solid antiquewhite;
+    
+}
+.run{
+    background-color: antiquewhite;
+    color:black;
+}
+.intro{
+    min-width: 500px;
+    color:antiquewhite;
+}
+img{
+    height: auto;
+    width: 20rem;
+    min-width: auto;
+    border-radius: 5%;
+    float: left;
+    margin:2.5rem 3rem 1rem 1rem;
+    border:2px solid transparent;
+}
+img:hover{
+    border:4px solid antiquewhite;
+}
+h1{
+    
+    font-size: 3rem;
+    padding-bottom:px ;
+    text-decoration: underline;
+}
+h3{
+    font-size: 2rem;
+    
+    text-decoration:underline;  
+}
+#p2{
+    text-align: center;
+}
+li{
+   padding-bottom: 1rem;
+}
+a{
+    color:#C08B5C;
+}
+
+@media (max-width :550px){
+    img{
+        width:15rem;
+    }
+}

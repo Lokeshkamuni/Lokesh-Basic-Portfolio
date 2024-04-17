@@ -1,0 +1,104 @@
+
+body{
+    background-color: rgb(0,0,0);
+    margin:0;
+    padding:2rem;
+    box-sizing: border-box;
+    font-size: 1.25rem;
+}
+.new{
+  
+  margin:0 2rem 0 2rem;
+  border:2px solid blue;
+  
+}
+
+.new:hover{
+  border:2px solid antiquewhite;
+  color:antiquewhite;
+}
+
+.run{
+      background-color: blue;
+      color:white;
+      border:2px solid blue;
+}
+.run:hover{
+  border:2px solid antiquewhite;
+  color:antiquewhite;
+}
+
+
+  .intro{
+    width:95vw;
+    display: flex;
+    
+  }
+  .intro1{
+    background-image: url("../Home\ img1.jpeg");
+    background-size: cover;
+    width:60vw;
+    height:75vh;
+    border-radius: 10%;
+    margin: 1.5rem 2rem 0rem 2rem;
+    overflow: hidden;
+    position: relative;
+  
+  }
+
+  .slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .intro2{
+    padding-left: 4rem;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  h1{
+    font-size: 5rem;
+    border:3px solid blue;
+  }
+  h3{
+    padding-top: 40px;
+    font-size: 3rem;
+    border:3px solid blue;
+  }
+  p{
+    padding:10px;
+  }
+
+.back{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+@media(max-width:1000px){
+  .intro1{
+    display:none;
+  }
+  body{
+    padding:2rem 0 2rem 0;
+  }
+  .intro{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.intro2{
+  padding-left:2rem;
+}
+}
